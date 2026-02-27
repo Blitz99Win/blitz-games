@@ -16,6 +16,7 @@ security_txt! {
     contacts: "email:contact@blitz99.win",
     policy: "https://www.blitz99.win/terms",
     preferred_languages: "en,es",
+    source_code: "https://github.com/Blitz99Win/blitz-games",
     auditors: "Unaudited — provably fair via on-chain Commit-Reveal + SlotHashes"
 }
 
