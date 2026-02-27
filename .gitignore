@@ -1,0 +1,14 @@
+# Anchor / Solana
+target/
+node_modules/
+test-ledger/
+.anchor/
+
+# Keys - NEVER commit
+*.json
+!package.json
+!tsconfig.json
+!Cargo.toml
+
+# OS
+.DS_Store
