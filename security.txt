@@ -1,0 +1,5 @@
+Contact: mailto:contact@blitz99.win
+Name: Blitz99 Games
+Policy: https://www.blitz99.win/terms
+Preferred-Languages: en, es
+Expires: 2027-02-27T00:00:00.000Z

@@ -1,0 +1,40 @@
+# Anchor / Solana build artifacts
+target/
+node_modules/
+test-ledger/
+.anchor/
+.svb-output/
+.svb-tmp/
+
+# NEVER commit keys or keypairs
+*-keypair.json
+*keypair*.json
+*.key
+id.json
+
+# NEVER commit admin/internal scripts
+*.js
+*.ts
+*.mjs
+*.cjs
+!*.rs
+
+# NEVER commit plans, notes, backups
+*.md
+!README.md
+*.bak
+*.backup
+*.txt
+!security.txt
+*.log
+pda_tx*
+IMPLEMENTATION_PLAN*
+
+# Package files (not needed for Solana program)
+package.json
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
